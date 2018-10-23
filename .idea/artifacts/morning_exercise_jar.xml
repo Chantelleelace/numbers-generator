@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="morning-exercise:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/morning_exercise_jar</output-path>
+    <root id="archive" name="morning-exercise.jar">
+      <element id="module-output" name="morning-exercise" />
+    </root>
+  </artifact>
+</component>
