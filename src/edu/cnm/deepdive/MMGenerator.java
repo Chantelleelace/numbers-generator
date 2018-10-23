@@ -16,7 +16,11 @@ public class MMGenerator implements Generator {
   public MMGenerator(Random rng) {
     this.rng = rng;
 //  Generates an array of numbers
-    pool = IntStream.rangeClosed(1, POOL_UPPER_LIMIT).toArray();
+//    pool = IntStream.rangeClosed(1, POOL_UPPER_LIMIT).toArray();
+    pool = new int[POOL_UPPER_LIMIT];
+    for (int i = 0; i < POOL_UPPER_LIMIT; i++) {
+      pool[i] = i +1;
+    }
   }
 
   @Override
